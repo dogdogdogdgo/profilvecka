@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    color: #333;
+   
+}
+
+.block{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 500px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 80px;
+    text-align: center; 
+    margin: 10px;
+    
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    
+}
+Header{
+    width: 100%;
+    height: 70px;
+    background-color: #0091d7;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+

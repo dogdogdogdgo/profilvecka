@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0091d7;
+    display: inline-block;
+}
+
+h4 {
+    margin: 0;
+    color: #555;
+    display: inline-block;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0091d7;
+    padding: 10px 0;
+    color: white;
+}
+
+.main-nav a {
+    color: white;
+}
+
+.song-list {    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.song {
+    display: inline-block;
+}
+label{
+    margin-left: 20px;
+}
+
+.song-list div {
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.song-list div h4 {
+    margin-bottom: 5px;
+}
+
+.block{
+    background-color: white;
+    color: black;
+ 
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center; 
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 200px;
+    
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.formsStuff{
+    margin: 10px;
+}
